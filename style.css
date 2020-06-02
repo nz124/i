@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@450;700&display=swap');
+/**Start Head**/
+head {
+  display: none;
+}
+meta {
+    display: none;
+}
+title {
+    display: none;
+}
+link {
+    display: none;
+}
+meta {
+    display: none;
+}
+script {
+    display: none;
+}
+/**End Head**/
+
+/**Start Body**/
+html, body {
+  -webkit-text-size-adjust: 100%;
+  background-color: #f2f2f3;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: .92em;
+  line-height: 1.3em;
+  font-family: "PT Mono",monospace;
+  color: #303030;
+  scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+    display: block;
+}
+/**End Body**/
+
+
+/**Start Navbar**/
+nav {
+    position: fixed;
+    background-color:#283e4a;;
+    width: 100%;
+    z-index: 99999;
+    font-size: 0.85em;
+    top: 0;
+    display: block; 
+    border-bottom: solid 1px #000000; 
+}
+nav #nav-items {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+div{
+    display: block;      
+}
+nav #home {
+    float: left;
+}
+nav .nav-item {
+    margin: 0;
+    padding: 10px;
+    float: right;
+}
+nav .nav-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+/**End Navbar**/
+
+/**Start Blog**/
+#blog {
+    padding-top: 80px;
+    min-height: 410px;
+}
+#blog .container {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+#blog p{
+  font-family: 'Vollkorn', serif;
+  font-size: 1.2em;  
+}
+/**End Blog**/
+
+/**Start Footer**/
+#footer {
+    width: 100%;
+    position: static;
+    bottom: 0;
+    text-align: center;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 999;
+    font-size: 1.2em;
+}
+#footer a{
+  color: red;
+  }
+.heart{
+  color: red;
+}
+/**End Footer**/
