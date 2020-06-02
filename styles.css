@@ -107,6 +107,9 @@ nav .nav-item a {
   text-decoration: none;
   color: red;
 }
+a{
+  text-decoration: none;	
+}
 .left .social a:visited {
   color: red;
 }
@@ -121,8 +124,6 @@ nav .nav-item a {
 }
 .left .txt .last p{
    margin-bottom: 35px;
-}
-.left .txt{
 }
 /* Clear floats after the columns */
 .row:after {
