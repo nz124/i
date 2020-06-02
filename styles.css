@@ -302,6 +302,12 @@ nav .nav-item a {
     padding-bottom: 15px;
     font-family: "Georgia",serif;
 }
+.heart{
+  color: red;
+}
+.pink{
+	color: #ff3385
+}
 /**End Projects**/
 
 /**Start Footer**/
@@ -320,7 +326,4 @@ nav .nav-item a {
 #footer a{
   color: red;
   }
-.heart{
-  color: red;
-}
 /**End Footer**/
