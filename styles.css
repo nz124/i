@@ -103,17 +103,14 @@ nav .nav-item a {
   float: right;
   margin-top: 10px;
 }
-.left p a{
+.left .social a{
   text-decoration: none;
   color: red;
 }
-a{
-  text-decoration: none;
-}
-.left p a:visited {
+.left .social a:visited {
   color: red;
 }
-.left a:hover {
+.left .social a:hover {
   color: red;
 }
 .left ul a{
