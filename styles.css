@@ -195,6 +195,15 @@ nav .nav-item a {
   .left .cont .hiders p:nth-child(5) {
     animation-delay: 10s;
   }
+  .left .cont .hiders p:nth-child(6) {
+    animation-delay: 12.5s;
+  }  
+  .left .cont .hiders p:nth-child(7) {
+    animation-delay: 15s;
+  }
+  .left .cont .hiders p:nth-child(8) {
+    animation-delay: 17.5s;
+  }
 }
 /**End Type writer**/
 /**End Hero**/
