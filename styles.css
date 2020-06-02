@@ -179,21 +179,21 @@ nav .nav-item a {
   float: right; /* makes animation go left-to-right */
   width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
   background: #f2f2f3; /* same as page background */
-  animation: txt 2s steps(30, end);
+  animation: txt 2.5s steps(30, end);
   animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
 }
 .left .cont .hiders p:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 2.5s;
 }
 .left .cont .hiders p:nth-child(3) {
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
 @media (max-width: 800px) {
   .left .cont .hiders p:nth-child(4) {
-    animation-delay: 6s;
+    animation-delay: 7.5s;
   }
   .left .cont .hiders p:nth-child(5) {
-    animation-delay: 8s;
+    animation-delay: 10s;
   }
 }
 /**End Type writer**/
