@@ -20,6 +20,11 @@ script {
 }
 /**End Head**/
 
+/**Global**/
+a{
+  text-decoration: none;	
+}
+/**Global**/
 /**Start Body**/
 html, body {
   -webkit-text-size-adjust: 100%;
@@ -107,13 +112,13 @@ nav .nav-item a {
   text-decoration: none;
   color: red;
 }
-a{
-  text-decoration: none;	
-}
 .left .social a:visited {
   color: red;
 }
 .left .social a:hover {
+  color: red;
+}
+.left ul a:hover {
   color: red;
 }
 .left ul a{
