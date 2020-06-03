@@ -46,7 +46,7 @@ body {
 
 /**Start Navbar**/
 nav {
-	position: sticky;
+	  position: sticky;
     width: 100%;
     z-index: 99999;
     background-color:#eee2dc; 
@@ -81,10 +81,10 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.7em;
+    font-size: 0.85em;
   }
   nav .nav-item{
-  	padding: 2px;
+  	padding: 5px;
   }
   nav #nav-items{
     padding-bottom: 30px;
@@ -249,6 +249,12 @@ nav .nav-item a:hover {
     min-height: 400px;
     padding-left: 40px;
     padding-right: 40px;
+}
+@media screen and (max-width: 600px) {
+  #projects{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 #projects .container {
     max-width: 100%;
