@@ -49,13 +49,12 @@ nav {
 	  position: sticky;
     width: 100%;
     z-index: 99999;
-    background-color:#eee2dc; 
 }
 nav #nav-items {
     padding-left: 25px;
     padding-right: 25px;
-    padding-bottom: 54px;
-    padding-top: 8.5px;
+    padding-bottom: 60px;
+    padding-top: 25px;
 
 }
 nav #home {
@@ -69,7 +68,7 @@ nav .nav-item {
 nav .nav-item a {
     color: #000000;
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "Georgia", serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -81,7 +80,7 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.85em;
+    font-size: 0.9em;
   }
   nav .nav-item{
   	padding: 5px;
@@ -89,6 +88,9 @@ nav .nav-item a:hover {
   nav #nav-items{
     padding-bottom: 30px;
     padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline;
   }
 }
 
@@ -155,12 +157,6 @@ nav .nav-item a:hover {
 .left ul a{
   color: #808080;
 }
-.left .txt p{
-  margin: 0px;
-}
-.left .txt .last p{
-   margin-bottom: 35px;
-}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -189,7 +185,7 @@ nav .nav-item a:hover {
     width: 100%;
     padding-left: 38px;
     padding-right: 38px;
-    margin-top: 6px;
+    margin-top: 15.5px;
 }
 @media only screen and (max-width: 813px)
 #experiences .section-header {
@@ -249,11 +245,15 @@ nav .nav-item a:hover {
     min-height: 400px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 15px;
 }
 @media screen and (max-width: 600px) {
   #projects{
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 10px;
+  }
+  #projects .container{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 #projects .container {
