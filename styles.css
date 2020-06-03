@@ -80,17 +80,16 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   nav .nav-item{
-  	padding: 5px;
+  	padding: 3px;
   }
   nav #nav-items{
     padding-bottom: 30px;
     padding-top: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    display: inline;
   }
 }
 
@@ -141,15 +140,13 @@ nav .nav-item a:hover {
   padding-left: 35px;
   padding-right: 30px; 
 }
-.left .social a{
-  text-decoration: none;
-  font-family: "Vollkorn", serif;
-}
-.left .social a:visited {
+.left .social a {
   color: red;
+  font-family: "Vollkorn", serif;
 }
 .left .social a:hover {
   color: #0000ff;
+  font-family: "Vollkorn", serif;
 }
 .left ul a:hover {
   color: #0000ff;
@@ -246,15 +243,6 @@ nav .nav-item a:hover {
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 15px;
-}
-@media screen and (max-width: 600px) {
-  #projects{
-    margin-left: 10px;
-  }
-  #projects .container{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 }
 #projects .container {
     max-width: 100%;
