@@ -258,10 +258,11 @@ nav .nav-item a:hover {
     display: inline-block;
     -webkit-transition: top 0.2s;
     transition: top 0.2s;
-}
-@media screen and (min-width: 600px) {
-  #projects .project {
     border: 0.5px solid #edc7b7;
+}
+@media screen and (max-device-width: 480px) {
+  #projects .project {
+    border: 0px;
   }
 }
 #projects .description {
