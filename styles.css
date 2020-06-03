@@ -73,7 +73,7 @@ nav .nav-item a {
     font-family: "Georgia", serif;
     text-transform: uppercase;
     font-weight: bold;
-	color: #303030;
+	  color: #303030;
 }
 nav .nav-item a:hover {
   color: #0000ff;
@@ -81,10 +81,10 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   nav .nav-item{
-  	padding: 5px;
+  	padding: 2px;
   }
   nav #nav-items{
     padding-bottom: 30px;
@@ -122,6 +122,15 @@ nav .nav-item a:hover {
 @media screen and (max-width: 600px) {
   .left p{
   	text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .left .social a{
+    text-align: justify;
+  }
+  .left{
+    padding-left: 28px;
+    padding-right: 25px;
   }
 }
 .right {
@@ -212,6 +221,20 @@ nav .nav-item a:hover {
 .tb {  
   margin-left: 300px;
   text-align: right;  
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 28px;
+    padding-right: 28px
+  }
+  .tab {  
+    margin-left: 15px;
+    text-align: right;  
+  }
+  .tb {  
+    margin-left: 15px;
+    text-align: right;  
+  } 
 }
 #experiences .exp{
     text-align: left;
