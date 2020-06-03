@@ -80,7 +80,7 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.85em;
+    font-size: 0.81em;
   }
   nav .nav-item{
   	padding: 3.5px;
@@ -264,10 +264,13 @@ nav .nav-item a:hover {
   #projects .project {
     border: 0px;
   }
+  #projects .description {
+    margin-right: 60px;
+  }
 }
 #projects .description {
     position: absolute;
-    padding: 40px;
+    padding:40px;
 }
 #projects .project-name {
     font-weight: bold;
