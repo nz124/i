@@ -46,10 +46,9 @@ body {
 
 /**Start Navbar**/
 nav {
-  position: sticky;
+    position: sticky;
     width: 100%;
     z-index: 99999;
-    background-color:#eee2dc; 
 }
 nav #nav-items {
     padding-left: 25px;
@@ -96,7 +95,7 @@ nav .nav-item a:hover {
 
 /**Start Blog**/
 #blog {
-    min-height: 425px;
+    min-height: 450px;
     padding-left: 40px;
     padding-right: 40px;
 }

@@ -80,10 +80,10 @@ nav .nav-item a:hover {
 
 @media screen and (max-width: 600px) {
   nav .nav-item a {
-    font-size: 0.8em;
+    font-size: 0.82em;
   }
   nav .nav-item{
-  	padding: 3px;
+  	padding: 3.5px;
   }
   nav #nav-items{
     padding-bottom: 30px;
@@ -258,7 +258,11 @@ nav .nav-item a:hover {
     display: inline-block;
     -webkit-transition: top 0.2s;
     transition: top 0.2s;
+}
+@media screen and (min-width: 600px) {
+  #projects .project {
     border: 0.5px solid #edc7b7;
+  }
 }
 #projects .description {
     position: absolute;
