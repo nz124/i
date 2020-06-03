@@ -20,18 +20,21 @@ script {
 }
 /**End Head**/
 
+/**Global**/
+a{
+  text-decoration: none;  
+}
+/**Global**/
 /**Start Body**/
 html, body {
   -webkit-text-size-adjust: 100%;
-  background-color: #f2f2f3;
+  background-color: #eae7dc;
   width: 100%;
-  height: 100%;
   margin: 0px;
   padding: 0px;
   font-size: .92em;
   line-height: 1.3em;
   font-family: "PT Mono",monospace;
-  color: #303030;
   scroll-behavior: smooth;
 }
 body {
@@ -43,56 +46,77 @@ body {
 
 /**Start Navbar**/
 nav {
-    position: fixed;
-    background-color:#283e4a;;
+  position: sticky;
     width: 100%;
     z-index: 99999;
-    font-size: 0.85em;
-    top: 0;
-    display: block; 
-    border-bottom: solid 1px #000000; 
+    background-color:#eee2dc; 
 }
 nav #nav-items {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    font-size: 1.2em;
-}
-div{
-    display: block;      
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 54px;
+    padding-top: 8.5px;
+
 }
 nav #home {
     float: left;
 }
 nav .nav-item {
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     float: right;
 }
 nav .nav-item a {
-    text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
+    font-size: 1.3em;
+    font-family: "Georgia", serif;
+    text-transform: uppercase;
+    font-weight: bold;
+  color: #303030;
 }
-a:-webkit-any-link {
-    cursor: pointer;
-    text-decoration: none;
+nav .nav-item a:hover {
+  color: #0000ff;
 }
+
+@media screen and (max-width: 600px) {
+  nav .nav-item a {
+    font-size: 0.9em;
+  }
+  nav .nav-item{
+    padding: 5px;
+  }
+  nav #nav-items{
+    padding-bottom: 30px;
+    padding-top: 5px;
+  }
+}
+
 /**End Navbar**/
 
 /**Start Blog**/
 #blog {
-    padding-top: 80px;
-    min-height: 410px;
+    min-height: 425px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #blog .container {
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+}
+.section-header {
+    font-family: 'Vollkorn', serif;
+    font-size: 3.5em;
+    font-weight: bold;
     text-align: left;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    color: red;
 }
 #blog p{
   font-family: 'Vollkorn', serif;
-  font-size: 1.2em;  
+  font-size: 1.2em;
+  text-align: left;  
 }
 /**End Blog**/
 
@@ -102,17 +126,14 @@ a:-webkit-any-link {
     position: static;
     bottom: 0;
     text-align: center;
-    background-color: #e0e0e0;
     margin-top: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     z-index: 999;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    background-color:#eee2dc; 
 }
 #footer a{
-  color: red;
+  color: #0000ff;
   }
-.heart{
-  color: red;
-}
 /**End Footer**/
