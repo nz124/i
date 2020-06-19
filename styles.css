@@ -251,11 +251,10 @@ color: #0000ff;
     display: inline-block;
     -webkit-transition: top 0.2s;
     transition: top 0.2s;
-    border: 1px solid #edc7b7;
 }
-@media (max-width:320px){
+@media (min-width:768px){
   #projects .project{
-    border:0px;
+    border: 1px solid #edc7b7;
   }
 }
 #projects .description {
