@@ -253,6 +253,11 @@ color: #0000ff;
     transition: top 0.2s;
     border: 1px solid #edc7b7;
 }
+@media (max-width:320px){
+  #projects .project{
+    border:0px;
+  }
+}
 #projects .description {
     position: absolute;
     padding:40px;
@@ -303,7 +308,7 @@ color: #0000ff;
   font-size: 1.0em;
   background-color:#eee2dc; 
   padding: 15px;
-    font-family: 'Trocchi', serif;
+  font-family: 'Trocchi', serif;
 }
 #footer .container-fluid a{
   color: #0000ff;
