@@ -1,6 +1,7 @@
 /**Global**/
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .container-fluid a{
   text-decoration: none;  
