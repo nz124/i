@@ -10,8 +10,7 @@ html{
   background-color: #eae7dc;
   padding-top: 25px;
   padding-left: 40px;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+  padding-right: 40px; 
 }
 /**Global**/
 
