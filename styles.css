@@ -241,9 +241,6 @@ color: #0000ff;
     min-height: 400px;
     margin-top: 15px;
 }
-#projects .container {
-    max-width: 100%;
-}
 #projects .project {
     text-align: center;
     margin-top: 0px;
