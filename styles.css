@@ -213,14 +213,16 @@ color: #0000ff;
     min-height: 400px;
     margin-top: 30px;
 }
-.tab {  
-  margin-left: 450px;
-}
-.tab, .tb {
-  text-align: right; 
-}
-.tb {  
-  margin-left: 520px;
+@media (min-width:641px)  {
+  .tab {  
+    margin-left: 450px;
+  }
+  .tab, .tb {
+    text-align: right; 
+  }
+  .tb {  
+    margin-left: 520px;
+  }
 }
 #experiences .exp{
     text-align: left;
