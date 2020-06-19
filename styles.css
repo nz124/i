@@ -1,16 +1,21 @@
 /**Global**/
-html{
+html, .container-fluid, body{
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .container-fluid a{
   text-decoration: none;  
 }
 .container-fluid{
   background-color: #eae7dc;
-  padding-top: 25px;
+  padding-top: 25px; 
+}
+
+@media (min-width:320px){
+  .container-fluid{
   padding-left: 40px;
-  padding-right: 40px; 
+  padding-right: 40px;
+  }
 }
 /**Global**/
 
