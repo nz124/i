@@ -1,226 +1,243 @@
-@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@450;700&display=swap');
 /**Global**/
-a{
-  text-decoration: none;	
-}
-/**Global**/
-/**Start Body**/
-html, body {
-  -webkit-text-size-adjust: 100%;
-  background-color: #eae7dc;
-  width: 100%;
-  margin: 0px;
-  padding: 0px;
-  font-size: .92em;
-  line-height: 1.3em;
-  font-family: "PT Mono",monospace;
+html{
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-body {
-    text-align: center;
-    display: block;
+.container-fluid a{
+  text-decoration: none;  
 }
-/**End Body**/
-
+.container-fluid{
+  background-color: #eae7dc;
+  padding-top: 25px;
+  padding-left: 40px;
+  scroll-behavior: smooth;
+}
+/**Global**/
 
 /**Start Navbar**/
-nav {
-	  position: sticky;
-    width: 100%;
-    z-index: 99999;
+.navbar {
+  margin-bottom: 0;
+  border: 0;
 }
-nav #nav-items {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 60px;
-    padding-top: 25px;
+#navbar .navbar-nav li a, #navbar .navbar-header a{
+  font-size: 1.15em;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #303030; 
 }
-nav #home {
-    float: left;
+#navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
+color: #0000ff;
 }
-nav .nav-item {
-    margin: 0;
-    padding: 15px;
-    float: right;
-}
-nav .nav-item a {
-    color: #000000;
-    font-weight: normal;
-    font-size: 1.2em;
-    font-family: "Georgia", serif;
-    text-transform: uppercase;
-    font-weight: bold;
-	  color: #303030;
-}
-nav .nav-item a:hover {
-  color: #0000ff;
-}
-
-@media screen and (max-width: 600px) {
-  nav .nav-item a {
-    font-size: 0.83em;
-  }
-  nav .nav-item{
-  	padding: 2.5px;
-  }
-  nav #nav-items{
-    padding-bottom: 30px;
-    padding-top: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
 /**End Navbar**/
 
-/**Start Hero**/
-#hero {
-    min-height: 400px;
-    width: 100%;
-    position: relative;
-}
-* {
-  box-sizing: border-box;
-}
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-}
-.left {
-  width: 55%;
-  text-align: left;
-  font-size: 1.2em;
+/**Start Home**/
+#left{
+  font-size: 1.15em;
   line-height: 1.3em;
-  padding-left: 38px;
-  padding-right: 35px;
-  margin-top: 40px;
+  font-family: "PT Mono",monospace;
+  color: #000000;
 }
-.left p{
-  margin-bottom: 35px;
-}
-@media screen and (max-width: 600px) {
-  .left p{
-  	text-align: center;
-  }
-}
-@media screen and (max-width: 600px) {
-  .left .social a{
-    text-align: justify;
-  }
-  .left{
-    padding-left: 28px;
-    padding-right: 25px;
-  }
-}
-.right {
-  width: 45%;
-  float: right;
-  padding-left: 35px;
-  padding-right: 30px; 
-}
-.left .social a {
+#left #social a{
+  font-size: .95em;
   color: red;
-  font-family: "Vollkorn", serif;
+  font-family: "Trocchi", serif;
 }
-.left .social a:hover {
-  color: #0000ff;
-  font-family: "Vollkorn", serif;
-}
-.left ul a:hover {
+#left ul a:hover, .css-typing a, #left #social a:hover {
   color: #0000ff;
 }
-.left ul a{
+.css-typing a, #left ul a{
   color: #808080;
 }
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#left {
+  margin-top: 25px;
 }
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+#left p{
+  margin-bottom: 50px;
+}
+#right {
+  margin-top: -25px;
+}
+#left #social{
+    margin-top: 50px;
+}
+#left ul a:hover {
+  color: #0000ff;
+}
+#left ul a{
+  color: #808080;
+}
+#left .txt{
+  margin-top: 40px;
+}
+/**Start Type Writer Effect**/
+
+
+.css-typing p {
+  font-family: "PT Mono",monospace;
+  font-size: 0.985em;
+  overflow: hidden;
+  margin: 3px !important;
+}
+@media (min-width:961px){ /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .css-typing p {
+  white-space: nowrap;
+  }    
+  .css-typing p:nth-child(1) {
+    width: 660px; /* manually set width */
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(2) {
+    width: 650px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(3) {
+    width: 330px; /* manually set width */
+    opacity: 0;
+    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    100% {
+      border: none;
+    }
+  }
+
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
   }
 }
-#img-container{
-    overflow: hidden;
-}
-#img-container img {
-    max-width: 100%;
-    object-fit: contain;
-}
-/**End Hero**/
+/**End Type Writer Effect**/
+/**End Home**/
 
-/**Start Experiences**/
-#experiences {
-    height: auto;
-    min-height: 400px;
-    width: 100%;
-    padding-left: 38px;
-    padding-right: 38px;
-    margin-top: 15.5px;
-}
-@media only screen and (max-width: 813px)
-#experiences .section-header {
-    text-align: center;
-}
+/**Start Projects & Exps Section Headers**/
 .section-header {
     font-family: 'Vollkorn', serif;
     font-size: 3.5em;
     font-weight: bold;
     text-align: left;
     position: relative;
-    padding-bottom: 30px;
     color: red;
 }
-@media only screen and (max-width: 813px)
-#experiences .container {
-    width: 100%;
-}
-#experiences .container {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 38px;
-    padding-right: 38px;
+/**End Projects & Exps Section Headers**/
+
+/**Start Experiences**/
+#experiences {
+    height: auto;
+    min-height: 400px;
+    margin-top: 30px;
 }
 .tab {  
-  margin-left: 220px;
-  text-align: right;  
+  margin-left: 450px;
+}
+.tab, .tb {
+  text-align: right; 
 }
 .tb {  
-  margin-left: 300px;
-  text-align: right;  
-}
-@media screen and (max-width: 600px) {
-  .container {
-    padding-left: 28px;
-    padding-right: 28px
-  }
-  .tab {  
-    margin-left: 15px;
-    text-align: right;  
-  }
-  .tb {  
-    margin-left: 15px;
-    text-align: right;  
-  } 
+  margin-left: 520px;
 }
 #experiences .exp{
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 1.2em;
     font-family: "Georgia",serif;
+    margin-top: 40px;  
+}
+#experiences .exps{
+  margin-left:40px;
+  margin-right:40px;
+}
+#projects .row{
+  margin-left:40px;
+  margin-right:40px;
 }
 /**End Experiences**/
+
 
 /**Start Projects**/
 #projects {
     min-height: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-top: 15px;
 }
 #projects .container {
@@ -228,24 +245,15 @@ nav .nav-item a:hover {
 }
 #projects .project {
     text-align: center;
-    margin: 10px;
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 120px;
     width: 325px;
     height: 325px;
     position: relative;
     display: inline-block;
     -webkit-transition: top 0.2s;
     transition: top 0.2s;
-    border: 0.5px solid #edc7b7;
-}
-@media screen and (max-device-width: 480px) {
-  #projects .project {
-    border: 0px;
-  }
-  #projects .description {
-    margin-right: 80px;
-  }
+    border: 1px solid #edc7b7;
 }
 #projects .description {
     position: absolute;
@@ -253,52 +261,47 @@ nav .nav-item a:hover {
 }
 #projects .project-name {
     font-weight: bold;
-    font-size: 1.5em;
-    line-height: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.3em;
     font-family: "Georgia",serif;
     text-transform: uppercase;
 }
-#projects .project a:visited {
-  color:  #000000;
+#projects .project-name a{
+  color: blue;
+}
+#projects .project a {
+  color:  #000066;
   font-family: "Georgia",serif;
 }
 #projects .project a:hover {
   color: #0000ff;
 }
-#projects .project a{
-  color:  #000000;
-}
 #projects .project-summary {
     height: 150px;
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 1.3em;
     padding-top: 15px;
     padding-left: 10px;
     padding-bottom: 15px;
-    font-family: "Vollkorn",serif;
+    font-family: 'Trocchi', serif;
 }
 .heart{
   color: red;
 }
-.pink{
-	font-weight: bold;
+.blue{
+  color:  #000066;
 }
 /**End Projects**/
 
 /**Start Footer**/
-#footer {
-    width: 100%;
-    position: static;
-    bottom: 0;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    z-index: 999;
-    font-size: 1.1em;
-    background-color:#eee2dc; 
+#footer .container-fluid{
+  text-align: center;
+  font-size: 1.0em;
+  background-color:#eee2dc; 
+  padding: 15px;
+    font-family: 'Trocchi', serif;
 }
-#footer a{
+#footer .container-fluid a{
   color: #0000ff;
-  }
+}
 /**End Footer**/
