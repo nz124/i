@@ -7,7 +7,7 @@ html{
   text-decoration: none;  
 }
 .container-fluid{
-  background-color: #eae7dc;
+  background-color: #ffeadb;
   padding-top: 25px; 
 }
 
@@ -219,13 +219,13 @@ color: #0000ff;
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 437px;
+    margin-left: 435px;
   }
   .tab, .tb {
     text-align: right; 
   }
   .tb {  
-    margin-left: 520px;
+    margin-left: 515px;
   }
 }
 #experiences .exp{
@@ -260,7 +260,7 @@ color: #0000ff;
 @media (min-width:768px){
   #projects .project{
     border: 1px solid #edc7b7;
-    margin-bottom: 120px;
+    margin-bottom: 110px;
   }
 }
 #projects .description {
@@ -278,11 +278,11 @@ color: #0000ff;
   color: blue;
 }
 #projects .project a {
-  color:  #000066;
+  color:  #0000ff;
   font-family: "Georgia",serif;
 }
 #projects .project a:hover {
-  color: #0000ff;
+  color: #000066;
 }
 #projects .project-summary {
     height: 150px;
@@ -303,7 +303,7 @@ color: #0000ff;
   color: red;
 }
 .blue{
-  color:  #000066;
+  color:  red;
 }
 /**End Projects**/
 
@@ -311,7 +311,7 @@ color: #0000ff;
 #footer .container-fluid{
   text-align: center;
   font-size: 1.0em;
-  background-color:#eee2dc; 
+  background-color:#eedad0; 
   padding: 15px;
   font-family: 'Trocchi', serif;
 }
