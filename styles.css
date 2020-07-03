@@ -7,7 +7,7 @@ html{
   text-decoration: none;  
 }
 .container-fluid{
-  background-color: #ffeadb;
+  background-color: #fceee3;
   padding-top: 25px; 
 }
 
@@ -311,7 +311,7 @@ color: #0000ff;
 #footer .container-fluid{
   text-align: center;
   font-size: 1.0em;
-  background-color:#eedad0; 
+  background-color:#ffeadb; 
   padding: 15px;
   font-family: 'Trocchi', serif;
 }
