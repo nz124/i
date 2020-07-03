@@ -17,6 +17,10 @@ html{
   padding-right: 40px;
   }
 }
+sub { 
+    vertical-align: sub; 
+    font-size: small; 
+} 
 /**Global**/
 
 /**Start Navbar**/
@@ -89,14 +93,14 @@ color: #0000ff;
   white-space: nowrap;
   }    
   .css-typing p:nth-child(1) {
-    width: 660px; /* manually set width */
+    width: 680px; /* manually set width */
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(2) {
-    width: 650px; /* manually set width */
+    width: 670px; /* manually set width */
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -106,7 +110,7 @@ color: #0000ff;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(3) {
-    width: 330px; /* manually set width */
+    width: 350px; /* manually set width */
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
