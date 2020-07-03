@@ -7,7 +7,7 @@ html{
   text-decoration: none;  
 }
 .container-fluid{
-  background-color: #fceee3;
+  background-color: #ffeadb;
   padding-top: 25px; 
 }
 
@@ -60,7 +60,7 @@ color: #0000ff;
 #footer .container-fluid{
   text-align: center;
   font-size: 1.0em;
-  background-color:#ffeadb; 
+  background-color:#f2ddce; 
   padding: 15px;
   font-family: 'Trocchi', serif;
 }
