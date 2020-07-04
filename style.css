@@ -74,4 +74,7 @@ sub {
 #footer .container-fluid a{
   color: #0000ff;
 }
+.heart{
+  color: #FF0000;
+}
 /**End Footer**/
