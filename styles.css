@@ -20,6 +20,15 @@ sub {
     vertical-align: sub; 
     font-size: small; 
 } 
+.section-header {
+    font-family: "PT Mono",monospace;
+    font-size: 2.65em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    color: red;
+    font-weight: bold;
+}
 /**Global**/
 
 /**Start Navbar**/
@@ -198,18 +207,6 @@ sub {
 /**End Type Writer Effect**/
 /**End Home**/
 
-/**Start Projects & Exps Section Headers**/
-.section-header {
-    font-family: "PT Mono",monospace;
-    font-size: 2.65em;
-    font-weight: bold;
-    text-align: left;
-    position: relative;
-    color: red;
-    font-weight: bold;
-}
-/**End Projects & Exps Section Headers**/
-
 /**Start Experiences**/
 #experiences {
     height: auto;
@@ -218,13 +215,13 @@ sub {
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 200px;
+    margin-left: 1900px;
   }
   .tab, .tb {
     text-align: right; 
   }
   .tb {  
-    margin-left: 333px;
+    margin-left: 323px;
   }
 }
 #experiences .exp{
