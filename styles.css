@@ -10,7 +10,6 @@ html{
   background-color: #f0e4da;
   padding-top: 25px; 
 }
-
 @media (min-width:320px){
   .container-fluid{
   padding-left: 40px;
@@ -29,14 +28,17 @@ sub {
   border: 0;
 }
 #navbar .navbar-nav li a, #navbar .navbar-header a{
-  font-size: 1.15em;
-  font-family: "Georgia", serif;
+  font-size: 1.35em;
+  font-family: 'PT Mono', monospace;
   text-transform: uppercase;
   font-weight: bold;
-  color: #303030; 
+  color: #000066; 
 }
 #navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
-color: #0000ff;
+  color: #0000ff;
+}
+.css-typing a:hover{
+  color: #0000ff;
 }
 /**End Navbar**/
 
@@ -48,9 +50,10 @@ color: #0000ff;
   color: #000000;
 }
 #left #social a{
-  font-size: .95em;
+  font-size: 0.95em;
   color: red;
-  font-family: "Trocchi", serif;
+  font-family: "PT Mono",monospace;
+  font-weight: bold;
 }
 #left ul a:hover, .css-typing a, #left #social a:hover {
   color: #0000ff;
@@ -79,9 +82,8 @@ color: #0000ff;
 #left .txt{
   margin-top: 40px;
 }
+
 /**Start Type Writer Effect**/
-
-
 .css-typing p {
   font-family: "PT Mono",monospace;
   font-size: 0.985em;
@@ -100,7 +102,7 @@ color: #0000ff;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(2) {
-    width: 670px; /* manually set width */
+    width: 720px; /* manually set width */
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -110,7 +112,7 @@ color: #0000ff;
     animation-fill-mode: forwards;
   }
   .css-typing p:nth-child(3) {
-    width: 350px; /* manually set width */
+    width: 380px; /* manually set width */
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
@@ -127,7 +129,6 @@ color: #0000ff;
       border: none;
     }
   }
-
   @-webkit-keyframes type {
     0% {
       width: 0;
@@ -136,7 +137,6 @@ color: #0000ff;
       border: none;
     }
   }
-
   @keyframes type2 {
     0% {
       width: 0;
@@ -149,7 +149,6 @@ color: #0000ff;
       border: none;
     }
   }
-
   @-webkit-keyframes type2 {
     0% {
       width: 0;
@@ -174,7 +173,6 @@ color: #0000ff;
       opacity: 1;
     }
   }
-
   @-webkit-keyframes type3 {
     0% {
       width: 0;
@@ -202,12 +200,13 @@ color: #0000ff;
 
 /**Start Projects & Exps Section Headers**/
 .section-header {
-    font-family: 'Vollkorn', serif;
-    font-size: 3.5em;
+    font-family: "PT Mono",monospace;
+    font-size: 2.65em;
     font-weight: bold;
     text-align: left;
     position: relative;
     color: red;
+    font-weight: bold;
 }
 /**End Projects & Exps Section Headers**/
 
@@ -219,25 +218,29 @@ color: #0000ff;
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 435px;
+    margin-left: 200px;
   }
   .tab, .tb {
     text-align: right; 
   }
   .tb {  
-    margin-left: 515px;
+    margin-left: 333px;
   }
 }
 #experiences .exp{
     text-align: left;
     font-size: 1.15em;
-    line-height: 1.2em;
-    font-family: "Georgia",serif;
+    line-height: 1.3em;
+    font-family: "PT Mono",monospace;
     margin-top: 40px;  
 }
 #experiences .exps{
   margin-left:40px;
   margin-right:40px;
+}
+.exp .name{
+  font-weight: bold;
+  color: #000066;
 }
 /**End Experiences**/
 
@@ -265,33 +268,31 @@ color: #0000ff;
 }
 #projects .description {
     position: absolute;
-    padding:40px;
+    padding:35px;
 }
 #projects .project-name {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.3em;
-    font-family: "Georgia",serif;
+    font-family: "PT Mono",monospace;
     text-transform: uppercase;
 }
-#projects .project-name a{
-  color: blue;
-}
 #projects .project a {
-  color:  #0000ff;
-  font-family: "Georgia",serif;
-}
-#projects .project a:hover {
+  font-family: "PT Mono", monospace;
+  font-weight: bold;
   color: #000066;
 }
+#projects .project a:hover {
+  color: #0000ff;
+}
 #projects .project-summary {
-    height: 150px;
+    height: 155px;
     font-size: 1.15em;
     line-height: 1.3em;
     padding-top: 15px;
     padding-left: 10px;
     padding-bottom: 15px;
-    font-family: 'Trocchi', serif;
+    font-family: "PT Mono",monospace;
 }
 @media (min-width:961px){
   #projects .row{
@@ -300,10 +301,11 @@ color: #0000ff;
   }
 }
 .heart{
-  color: red;
+  color: #FF0000;
 }
 .blue{
-  color:  red;
+  color: #000066;
+  font-weight: bold;
 }
 /**End Projects**/
 
@@ -313,9 +315,12 @@ color: #0000ff;
   font-size: 1.0em;
   background-color:#fae7d9; 
   padding: 15px;
-  font-family: 'Trocchi', serif;
+  font-family: "PT Mono",monospace;
 }
 #footer .container-fluid a{
+  color: #000066;
+}
+#footer .container-fluid a:hover{
   color: #0000ff;
 }
 /**End Footer**/

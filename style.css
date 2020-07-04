@@ -10,12 +10,24 @@ html{
   background-color: #f0e4da;
   padding-top: 25px; 
 }
-
 @media (min-width:320px){
   .container-fluid{
   padding-left: 40px;
   padding-right: 40px;
   }
+}
+sub { 
+    vertical-align: sub; 
+    font-size: small; 
+} 
+.section-header {
+    font-family: "PT Mono",monospace;
+    font-size: 2.65em;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    color: red;
+    font-weight: bold;
 }
 /**Global**/
 
@@ -25,31 +37,26 @@ html{
   border: 0;
 }
 #navbar .navbar-nav li a, #navbar .navbar-header a{
-  font-size: 1.15em;
-  font-family: "Georgia", serif;
+  font-size: 1.35em;
+  font-family: 'PT Mono', monospace;
   text-transform: uppercase;
   font-weight: bold;
-  color: #303030; 
+  color: #000066; 
 }
 #navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
-color: #0000ff;
+  color: #0000ff;
+}
+.css-typing a:hover{
+  color: #0000ff;
 }
 /**End Navbar**/
 
+
 /**Start Blog**/
 #blog {
-    min-height: 450px;
+    min-height: 500px;
 }
-.section-header {
-    font-family: 'Vollkorn', serif;
-    font-size: 3.5em;
-    font-weight: bold;
-    text-align: left;
-    position: relative;
-    padding-bottom: 30px;
-    color: red;
-}
-#blog p{
+blog p{
   font-family: 'Trocchi', serif;
   font-size: 1.2em;
   text-align: left;  
