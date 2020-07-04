@@ -56,8 +56,8 @@ sub {
 #blog {
     min-height: 500px;
 }
-blog p{
-  font-family: 'Trocchi', serif;
+#blog p{
+  font-family: "PT Mono",monospace;
   font-size: 1.2em;
   text-align: left;  
 }
