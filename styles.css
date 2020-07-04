@@ -209,13 +209,13 @@ sub {
 
 /**Start Experiences**/
 #experiences {
-    height: auto;
-    min-height: 400px;
+    height: auto
     margin-top: 30px;
+    min-height: 400px;
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 1900px;
+    margin-left: 190px;
   }
   .tab, .tb {
     text-align: right; 
