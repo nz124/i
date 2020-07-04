@@ -54,7 +54,7 @@ sub {
 
 /**Start Blog**/
 #blog {
-    min-height: 500px;
+    min-height: 450px;
 }
 #blog p{
   font-family: "PT Mono",monospace;
@@ -69,7 +69,7 @@ sub {
   font-size: 1.0em;
   background-color:#fae7d9; 
   padding: 15px;
-  font-family: 'Trocchi', serif;
+  font-family: "PT Mono",monospace;
 }
 #footer .container-fluid a{
   color: #0000ff;
