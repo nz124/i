@@ -8,7 +8,7 @@ html{
 }
 .container-fluid{
   background-color: #f0e4da;
-  padding-top: 25px; 
+  padding-top: 35px; 
 }
 @media (min-width:320px){
   .container-fluid{
@@ -71,16 +71,13 @@ sub {
   color: #808080;
 }
 #left {
-  margin-top: 25px;
-}
-#left p{
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 #right {
   margin-top: -25px;
 }
 #left #social{
-    margin-top: 50px;
+    margin-top: 55px;
 }
 #left ul a:hover {
   color: #0000ff;
@@ -210,7 +207,7 @@ sub {
 /**Start Experiences**/
 #experiences {
     height: auto
-    margin-top: 30px;
+    margin-top: 40px;
     min-height: 400px;
 }
 @media (min-width:641px)  {
