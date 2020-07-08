@@ -212,13 +212,13 @@ sub {
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 190px;
+    margin-left: 150px;
   }
   .tab, .tb {
     text-align: right; 
   }
   .tb {  
-    margin-left: 323px;
+    margin-left: 283px;
   }
 }
 #experiences .exp{
