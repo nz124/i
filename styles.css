@@ -212,13 +212,20 @@ sub {
 }
 @media (min-width:641px)  {
   .tab {  
-    margin-left: 150px;
-  }
-  .tab, .tb {
-    text-align: right; 
+    margin-left: 330px;
   }
   .tb {  
-    margin-left: 283px;
+    margin-left: 260px;
+  }
+  .tab0{
+    margin-left: 535px;
+  }
+  .tab1{
+    margin-left: 610px;
+  }
+  {
+  .tab, .tb, .tab0, .tab1 {
+    text-align: right; 
   }
 }
 #experiences .exp{
@@ -226,7 +233,7 @@ sub {
     font-size: 1.15em;
     line-height: 1.3em;
     font-family: "PT Mono",monospace;
-    margin-top: 40px;  
+    margin-top: 15px;  
 }
 #experiences .exps{
   margin-left:40px;
